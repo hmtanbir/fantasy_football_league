@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Games</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Match number</th>
+      <th>Home team</th>
+      <th>Away team</th>
+      <th>Home team goal</th>
+      <th>Away team goal</th>
+      <th>Game date</th>
+      <th>Game season</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @games.each do |game| %>
+      <tr>
+        <td><%= game.match_number %></td>
+        <td><%= game.home_team %></td>
+        <td><%= game.away_team %></td>
+        <td><%= game.home_team_goal %></td>
+        <td><%= game.away_team_goal %></td>
+        <td><%= game.game_date %></td>
+        <td><%= game.game_session.try(:period) %></td>
+        <td><%= link_to 'Show', game %></td>
+        <td><%= link_to 'Edit', edit_game_path(game) %></td>
+        <td><%= link_to 'Destroy', game, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Game', new_game_path %>

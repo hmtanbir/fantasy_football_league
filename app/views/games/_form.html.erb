@@ -1,0 +1,52 @@
+<%= form_with(model: game, local: true) do |form| %>
+  <% if game.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(game.errors.count, "error") %> prohibited this game from being saved:</h2>
+
+      <ul>
+      <% game.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :match_number %>
+    <%= form.number_field :match_number %>
+  </div>
+
+  <div class="field">
+    <%= form.label :home_team %>
+    <%= form.collection_select :home_team, Team.all, :name, :name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :away_team %>
+    <%= form.collection_select :away_team, Team.all, :name, :name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :home_team_goal %>
+    <%= form.number_field :home_team_goal %>
+  </div>
+
+  <div class="field">
+    <%= form.label :away_team_goal %>
+    <%= form.number_field :away_team_goal %>
+  </div>
+
+  <div class="field">
+    <%= form.label :game_date %>
+    <%= form.date_select :game_date %>
+  </div>
+
+  <div class="field">
+    <%= form.label :game_session_id %>
+    <%= form.collection_select :game_session_id, GameSession.all, :id, :period %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

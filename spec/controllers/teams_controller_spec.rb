@@ -132,14 +132,14 @@ RSpec.describe TeamsController, type: :controller do
       end
 
       it 'assigns the requested team as @team' do
-        submission = Team.create! valid_attributes
-        put :update, params: { id: team.to_param, team: valid_attributes }
+        team = Team.create! valid_attributes
+        put :update, params: { id: team.to_param, team: new_attributes }
         expect(assigns(:team)).to eq(team)
       end
 
       it "redirects to the team" do
         team = Team.create! valid_attributes
-        put :update, params: {id: team.to_param, team: valid_attributes}
+        put :update, params: { id: team.to_param, team: new_attributes }
         expect(response).to redirect_to(team)
       end
     end

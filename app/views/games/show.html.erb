@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Match number:</strong>
+  <%= @game.match_number %>
+</p>
+
+<p>
+  <strong>Home team:</strong>
+  <%= @game.home_team %>
+</p>
+
+<p>
+  <strong>Away team:</strong>
+  <%= @game.away_team %>
+</p>
+
+<p>
+  <strong>Home team goal:</strong>
+  <%= @game.home_team_goal %>
+</p>
+
+<p>
+  <strong>Away team goal:</strong>
+  <%= @game.away_team_goal %>
+</p>
+
+<p>
+  <strong>Game date:</strong>
+  <%= @game.game_date %>
+</p>
+
+<p>
+  <strong>Game season:</strong>
+  <%= @game.game_session.try(:period) %>
+</p>
+
+<%= link_to 'Edit', edit_game_path(@game) %> |
+<%= link_to 'Back', games_path %>

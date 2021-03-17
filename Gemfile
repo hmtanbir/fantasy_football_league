@@ -81,3 +81,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'rack-cache', :require => 'rack/cache'
 # install gem better_error
 gem 'better_errors', '~> 2.1', '>= 2.1.1'
+gem "binding_of_caller"

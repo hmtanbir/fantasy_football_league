@@ -17,7 +17,7 @@ RSpec.describe GameSessionsController, type: :controller do
   describe "GET #index" do
     it "returns a success response" do
       GameSession.create! valid_attributes
-      get :index, params: {}
+      get :index
       expect(response).to be_successful
     end
 
@@ -131,13 +131,13 @@ RSpec.describe GameSessionsController, type: :controller do
 
       it 'assigns the requested game_session as @game_session' do
         submission = GameSession.create! valid_attributes
-        put :update, params: { id: game_session.to_param, game_session: valid_attributes }
+        put :update, params: { id: game_session.to_param, game_session: new_attributes }
         expect(assigns(:game_session)).to eq(game_session)
       end
 
       it "redirects to the game_session" do
         game_session = GameSession.create! valid_attributes
-        put :update, params: {id: game_session.to_param, game_session: valid_attributes}
+        put :update, params: { id: game_session.to_param, game_session: new_attributes }
         expect(response).to redirect_to(game_session)
       end
     end

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_03_16_154239) do
+ActiveRecord::Schema.define(version: 2021_03_17_044732) do
 
   create_table "active_storage_attachments", force: :cascade do |t|
     t.string "name", null: false
@@ -37,6 +37,21 @@ ActiveRecord::Schema.define(version: 2021_03_16_154239) do
     t.string "period"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "games", force: :cascade do |t|
+    t.integer "match_number"
+    t.string "home_team"
+    t.string "away_team"
+    t.integer "home_team_goal", default: 0
+    t.integer "away_team_goal", default: 0
+    t.date "game_date"
+    t.integer "game_session_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["game_session_id"], name: "index_games_on_game_session_id"
+    t.index ["home_team", "away_team", "game_session_id"], name: "games_unique_index", unique: true
+    t.index ["match_number", "game_session_id"], name: "games_unique_match_index", unique: true
   end
 
   create_table "teams", force: :cascade do |t|
