@@ -2,29 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="080308c8-3086-4f27-b46c-9cbabb552e09" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/controllers/managements_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/helpers/managements_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/management.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/managements/_form.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/managements/edit.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/managements/index.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/managements/new.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/managements/show.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20210318172150_create_managements.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/controllers/managements_controller_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/factories/management.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/models/management_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/routing/managements_routing_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/custom.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/teams_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/teams_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/players/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/players/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/teams/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/teams/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/.last_run.json" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/.last_run.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/.resultset.json" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/.resultset.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -471,7 +450,7 @@
     <SUITE FILE_PATH="coverage/ffl@Game_validate_teams.rcov" NAME="Game#validate_teams Coverage Results" MODIFIED="1615989757255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
     <SUITE FILE_PATH="coverage/ffl@GameSessionsController.rcov" NAME="GameSessionsController Coverage Results" MODIFIED="1615981922225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
     <SUITE FILE_PATH="coverage/ffl@Game.rcov" NAME="Game Coverage Results" MODIFIED="1615990927386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
-    <SUITE FILE_PATH="coverage/ffl@Management_validate_team_ma_____1_.rcov" NAME="Management#validate_team_ma... (1) Coverage Results" MODIFIED="1616091146554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
+    <SUITE FILE_PATH="coverage/ffl@Management_validate_team_ma_____1_.rcov" NAME="Management#validate_team_ma... (1) Coverage Results" MODIFIED="1616091153354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
     <SUITE FILE_PATH="coverage/ffl@TeamsController_DELETE__des___.rcov" NAME="TeamsController DELETE #des... Coverage Results" MODIFIED="1615902420031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
     <SUITE FILE_PATH="coverage/ffl@Player.rcov" NAME="Player Coverage Results" MODIFIED="1616086945212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
     <SUITE FILE_PATH="coverage/ffl@ManagementsController.rcov" NAME="ManagementsController Coverage Results" MODIFIED="1616090764428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
