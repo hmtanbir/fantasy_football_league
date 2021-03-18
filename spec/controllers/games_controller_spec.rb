@@ -3,7 +3,26 @@ require 'rails_helper'
 RSpec.describe GamesController, type: :controller do
 
   let(:season) { FactoryBot.create :game_session }
-  let(:game) { FactoryBot.create :game }
+  let(:game) { FactoryBot.create :game, game_session_id: season.id }
+  let(:standing_home) { FactoryBot.create :standing,
+                                          team: 'Manchester City',
+                                          win: 1,
+                                          lose: 0,
+                                          draw: 0,
+                                          gf: 2,
+                                          ga: 1,
+                                          gd: 1,
+                                          game_session_id: season.id }
+
+  let(:standing_away) { FactoryBot.create :standing,
+                                          team:'Manchester United',
+                                          win: 0,
+                                          lose: 1,
+                                          draw: 0,
+                                          gf: 1,
+                                          ga: 2,
+                                          gd: -1,
+                                          game_session_id: season.id }
 
   let(:valid_attributes) do {
     match_number: 1,
@@ -24,6 +43,19 @@ RSpec.describe GamesController, type: :controller do
     away_game_goal: nil,
     game_date: nil,
     game_session_id: nil
+  }
+  end
+
+  let(:standing_attributes) do {
+    team: 'Manchester City',
+    match_played: 1,
+    win: 1,
+    lose: 0,
+    draw: 0,
+    gf: 4,
+    ga: 3,
+    gd: 1,
+    game_session: season.id
   }
   end
 
@@ -89,6 +121,12 @@ RSpec.describe GamesController, type: :controller do
         }.to change(Game, :count).by(1)
       end
 
+      it 'creates two new standings' do
+        expect {
+          post :create, params: { game: valid_attributes }
+        }.to change(Standing, :count).by(2)
+      end
+
       it 'assigns a newly created game as @game' do
         post :create, params: { game: valid_attributes }
         expect(assigns(:game)).to be_a(Game)
@@ -125,6 +163,23 @@ RSpec.describe GamesController, type: :controller do
       it 'does not show any flash message' do
         post :create, params: { game: invalid_attributes }
         expect(flash[:notice]).to match(nil)
+      end
+    end
+
+    context "with standing object" do
+      before do
+        standing_home
+        standing_away
+      end
+
+      it 'increments match played' do
+        before_home_mp = Standing.first.match_played
+        before_away_mp = Standing.second.match_played
+        post :create, params: { game: valid_attributes }
+        after_home_mp = Standing.first.match_played
+        after_away_mp = Standing.second.match_played
+        expect(before_home_mp + 1).to eq(after_home_mp)
+        expect(before_away_mp + 1).to eq(after_away_mp)
       end
     end
   end

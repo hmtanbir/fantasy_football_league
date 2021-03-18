@@ -2,29 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="080308c8-3086-4f27-b46c-9cbabb552e09" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/controllers/games_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/helpers/games_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/game.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/games/_form.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/games/edit.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/games/index.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/games/new.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/games/show.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/controllers/games_controller_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/models/game_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/routing/games_routing_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/factories/standing.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/helpers/home_helper_spec.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/ffl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ffl.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/game_session.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/game_session.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/games_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/games_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/.last_run.json" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/.last_run.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coverage/.resultset.json" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/.resultset.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coverage/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/controllers/game_sessions_controller_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/controllers/game_sessions_controller_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/controllers/teams_controller_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/controllers/teams_controller_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/factories/team.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/factories/team.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/controllers/games_controller_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/controllers/games_controller_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/factories/game.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/factories/game.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +31,14 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -53,8 +54,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/spec/factories" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -66,8 +69,8 @@
       <recent name="$PROJECT_DIR$/lib/locales" />
     </key>
   </component>
-  <component name="RunManager" selected="RSpec.Game">
-    <configuration name="Game" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="RSpec.HomeHelper#point_calc">
+    <configuration name="GamesController POST #creat... (4)" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
       <module name="ffl" />
       <predefined_log_file enabled="true" id="RUBY_RSPEC" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -88,10 +91,10 @@
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/models/game_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/controllers/games_controller_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Game" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="GamesController POST #create with standing object updates win data" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -102,7 +105,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Game#validate_teams returns... (1)" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
+    <configuration name="HomeController GET #standin... (1)" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
       <module name="ffl" />
       <predefined_log_file enabled="true" id="RUBY_RSPEC" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -123,10 +126,10 @@
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/models/game_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/controllers/home_controller_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Game#validate_teams returns a true message for different team" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="HomeController GET #standings returns season wise team standings" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -137,7 +140,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Game#validate_teams returns... (2)" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
+    <configuration name="HomeController GET #standin..." type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
       <module name="ffl" />
       <predefined_log_file enabled="true" id="RUBY_RSPEC" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -158,10 +161,10 @@
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/models/game_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/controllers/home_controller_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Game#validate_teams returns a true for different team" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="HomeController GET #standings returns http success" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -172,7 +175,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Game#validate_teams returns..." type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
+    <configuration name="HomeController" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
       <module name="ffl" />
       <predefined_log_file enabled="true" id="RUBY_RSPEC" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -193,10 +196,10 @@
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/models/game_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/controllers/home_controller_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Game#validate_teams returns a error message" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="HomeController" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -207,7 +210,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Game#validate_teams" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
+    <configuration name="HomeHelper#point_calc" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
       <module name="ffl" />
       <predefined_log_file enabled="true" id="RUBY_RSPEC" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -228,10 +231,10 @@
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/models/game_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/helpers/home_helper_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Game#validate_teams" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="HomeHelper#point_calc" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -345,11 +348,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="RSpec.Game" />
-        <item itemvalue="RSpec.Game#validate_teams returns... (2)" />
-        <item itemvalue="RSpec.Game#validate_teams returns... (1)" />
-        <item itemvalue="RSpec.Game#validate_teams returns..." />
-        <item itemvalue="RSpec.Game#validate_teams" />
+        <item itemvalue="RSpec.HomeHelper#point_calc" />
+        <item itemvalue="RSpec.HomeController" />
+        <item itemvalue="RSpec.HomeController GET #standin..." />
+        <item itemvalue="RSpec.HomeController GET #standin... (1)" />
+        <item itemvalue="RSpec.GamesController POST #creat... (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -367,6 +370,7 @@
       <workItem from="1615888821932" duration="11000" />
       <workItem from="1615888845968" duration="1746000" />
       <workItem from="1615946388472" duration="14811000" />
+      <workItem from="1616045043232" duration="19339000" />
     </task>
     <servers />
   </component>
@@ -388,49 +392,65 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ffl@GameSessionsController_PUT______4_.rcov" NAME="GameSessionsController PUT ... (4) Coverage Results" MODIFIED="1615899217132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
     <SUITE FILE_PATH="coverage/ffl@GamesController_PUT__update___.rcov" NAME="GamesController PUT #update... Coverage Results" MODIFIED="1615981795929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
-    <SUITE FILE_PATH="coverage/ffl@GameSessionsController_GET______2_.rcov" NAME="GameSessionsController GET ... (2) Coverage Results" MODIFIED="1615898384065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
-    <SUITE FILE_PATH="coverage/ffl@GameSessionsController_PUT______2_.rcov" NAME="GameSessionsController PUT ... (2) Coverage Results" MODIFIED="1615899104158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
     <SUITE FILE_PATH="coverage/ffl@TeamsController_GET__index.rcov" NAME="TeamsController GET #index Coverage Results" MODIFIED="1615908429146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
-    <SUITE FILE_PATH="coverage/ffl@Game_validate_teams_returns_____2_.rcov" NAME="Game#validate_teams returns... (2) Coverage Results" MODIFIED="1615990110126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
     <SUITE FILE_PATH="coverage/ffl@GameSession.rcov" NAME="GameSession Coverage Results" MODIFIED="1615899521986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
-    <SUITE FILE_PATH="coverage/ffl@GamesController_DELETE__des_____2_.rcov" NAME="GamesController DELETE #des... (2) Coverage Results" MODIFIED="1615980586224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
+    <SUITE FILE_PATH="coverage/ffl@GamesController_POST__creat_____3_.rcov" NAME="GamesController POST #creat... (3) Coverage Results" MODIFIED="1616060326401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
     <SUITE FILE_PATH="coverage/ffl@TeamsController_POST__creat___.rcov" NAME="TeamsController POST #creat... Coverage Results" MODIFIED="1615909132152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
     <SUITE FILE_PATH="coverage/ffl@GameSessionsController_GET______4_.rcov" NAME="GameSessionsController GET ... (4) Coverage Results" MODIFIED="1615898490355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
     <SUITE FILE_PATH="coverage/ffl@Game_validate_teams_returns_____1_.rcov" NAME="Game#validate_teams returns... (1) Coverage Results" MODIFIED="1615989868814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
     <SUITE FILE_PATH="coverage/ffl@GameSessionsController_GET____.rcov" NAME="GameSessionsController GET ... Coverage Results" MODIFIED="1615897529075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
     <SUITE FILE_PATH="coverage/ffl@TeamsController.rcov" NAME="TeamsController Coverage Results" MODIFIED="1615980099151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
-    <SUITE FILE_PATH="coverage/ffl@GamesController_GET__new_as___.rcov" NAME="GamesController GET #new as... Coverage Results" MODIFIED="1615980213591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
-    <SUITE FILE_PATH="coverage/ffl@GameSessionsController_DELE___.rcov" NAME="GameSessionsController DELE... Coverage Results" MODIFIED="1615899435444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
+    <SUITE FILE_PATH="coverage/ffl@HomeController_GET__standin_____1_.rcov" NAME="HomeController GET #standin... (1) Coverage Results" MODIFIED="1616073522967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
     <SUITE FILE_PATH="coverage/ffl@GamesController_DELETE__des___.rcov" NAME="GamesController DELETE #des... Coverage Results" MODIFIED="1615980539255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
-    <SUITE FILE_PATH="coverage/ffl@Game_validate_match_number.rcov" NAME="Game#validate_match_number Coverage Results" MODIFIED="1615989492943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
-    <SUITE FILE_PATH="coverage/ffl@GameSessionsController__1_.rcov" NAME="GameSessionsController (1) Coverage Results" MODIFIED="1615899722700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
     <SUITE FILE_PATH="coverage/ffl@GameSessionsController_POST_____1_.rcov" NAME="GameSessionsController POST... (1) Coverage Results" MODIFIED="1615898681515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
     <SUITE FILE_PATH="coverage/ffl@GamesController_PUT__update.rcov" NAME="GamesController PUT #update Coverage Results" MODIFIED="1615982809307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
     <SUITE FILE_PATH="coverage/ffl@Game_validate_teams_returns___.rcov" NAME="Game#validate_teams returns... Coverage Results" MODIFIED="1615989834242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
     <SUITE FILE_PATH="coverage/ffl@GameSessionsController_routing.rcov" NAME="GameSessionsController routing Coverage Results" MODIFIED="1615899729492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
+    <SUITE FILE_PATH="coverage/ffl@Development__ffl.rcov" NAME="Development: ffl Coverage Results" MODIFIED="1616045624011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
     <SUITE FILE_PATH="coverage/ffl@GameSessionsController_POST_____3_.rcov" NAME="GameSessionsController POST... (3) Coverage Results" MODIFIED="1615898944371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
-    <SUITE FILE_PATH="coverage/ffl@TeamsController_PUT__update_____1_.rcov" NAME="TeamsController PUT #update... (1) Coverage Results" MODIFIED="1615902223542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
     <SUITE FILE_PATH="coverage/ffl@Team.rcov" NAME="Team Coverage Results" MODIFIED="1615909502819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
     <SUITE FILE_PATH="coverage/ffl@GameSessionsController_PUT______5_.rcov" NAME="GameSessionsController PUT ... (5) Coverage Results" MODIFIED="1615899254605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
+    <SUITE FILE_PATH="coverage/ffl@Standing.rcov" NAME="Standing Coverage Results" MODIFIED="1616053919297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
+    <SUITE FILE_PATH="coverage/ffl@GamesController_POST__creat_____2_.rcov" NAME="GamesController POST #creat... (2) Coverage Results" MODIFIED="1616061964537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
+    <SUITE FILE_PATH="coverage/ffl@GameSessionsController_PUT______1_.rcov" NAME="GameSessionsController PUT ... (1) Coverage Results" MODIFIED="1615899088092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
+    <SUITE FILE_PATH="coverage/ffl@GamesController.rcov" NAME="GamesController Coverage Results" MODIFIED="1615991447209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
+    <SUITE FILE_PATH="coverage/ffl@TeamsController_PUT__update_____2_.rcov" NAME="TeamsController PUT #update... (2) Coverage Results" MODIFIED="1615902379883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
+    <SUITE FILE_PATH="coverage/ffl@TeamsController_PUT__update.rcov" NAME="TeamsController PUT #update Coverage Results" MODIFIED="1615902412946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
+    <SUITE FILE_PATH="coverage/ffl@TeamsController__1_.rcov" NAME="TeamsController (1) Coverage Results" MODIFIED="1615909293764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
+    <SUITE FILE_PATH="coverage/ffl@GameSessionsController_POST___.rcov" NAME="GameSessionsController POST... Coverage Results" MODIFIED="1615898552004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
+    <SUITE FILE_PATH="coverage/ffl@Game_validate_game_returns____.rcov" NAME="Game#validate_game returns ... Coverage Results" MODIFIED="1615989288641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
+    <SUITE FILE_PATH="coverage/ffl@Standing_validate_game_incl___.rcov" NAME="Standing#validate_game incl... Coverage Results" MODIFIED="1616054818514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
+    <SUITE FILE_PATH="coverage/ffl@HomeHelper_point_calc.rcov" NAME="HomeHelper#point_calc Coverage Results" MODIFIED="1616076575375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
+    <SUITE FILE_PATH="coverage/ffl@GamesController_DELETE__des_____1_.rcov" NAME="GamesController DELETE #des... (1) Coverage Results" MODIFIED="1615980575769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
+    <SUITE FILE_PATH="coverage/ffl@GameSessionsController_GET______3_.rcov" NAME="GameSessionsController GET ... (3) Coverage Results" MODIFIED="1615898435115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
+    <SUITE FILE_PATH="coverage/ffl@GamesController_POST__creat_____5_.rcov" NAME="GamesController POST #creat... (5) Coverage Results" MODIFIED="1616060944351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
+    <SUITE FILE_PATH="coverage/ffl@GamesController_POST__creat_____1_.rcov" NAME="GamesController POST #creat... (1) Coverage Results" MODIFIED="1616061780048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
+    <SUITE FILE_PATH="coverage/ffl@GameSessionsController_GET______2_.rcov" NAME="GameSessionsController GET ... (2) Coverage Results" MODIFIED="1615898384065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
+    <SUITE FILE_PATH="coverage/ffl@HomeController_GET__standin___.rcov" NAME="HomeController GET #standin... Coverage Results" MODIFIED="1616073595355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
+    <SUITE FILE_PATH="coverage/ffl@GameSessionsController_PUT______2_.rcov" NAME="GameSessionsController PUT ... (2) Coverage Results" MODIFIED="1615899104158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
+    <SUITE FILE_PATH="coverage/ffl@Game_validate_teams_returns_____2_.rcov" NAME="Game#validate_teams returns... (2) Coverage Results" MODIFIED="1615990110126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
+    <SUITE FILE_PATH="coverage/ffl@GamesController_DELETE__des_____2_.rcov" NAME="GamesController DELETE #des... (2) Coverage Results" MODIFIED="1615980586224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
+    <SUITE FILE_PATH="coverage/ffl@GamesController_POST__creat_____4_.rcov" NAME="GamesController POST #creat... (4) Coverage Results" MODIFIED="1616062263985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
+    <SUITE FILE_PATH="coverage/ffl@games_controller.rcov" NAME="games_controller Coverage Results" MODIFIED="1616002887657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/controllers" MODULE_NAME="ffl" />
+    <SUITE FILE_PATH="coverage/ffl@GamesController_GET__new_as___.rcov" NAME="GamesController GET #new as... Coverage Results" MODIFIED="1615980213591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
+    <SUITE FILE_PATH="coverage/ffl@GameSessionsController_DELE___.rcov" NAME="GameSessionsController DELE... Coverage Results" MODIFIED="1615899435444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
+    <SUITE FILE_PATH="coverage/ffl@Game_validate_match_number.rcov" NAME="Game#validate_match_number Coverage Results" MODIFIED="1615989492943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
+    <SUITE FILE_PATH="coverage/ffl@GameSessionsController__1_.rcov" NAME="GameSessionsController (1) Coverage Results" MODIFIED="1615899722700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
+    <SUITE FILE_PATH="coverage/ffl@Standing_validate_game_retu___.rcov" NAME="Standing#validate_game retu... Coverage Results" MODIFIED="1616054639005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
+    <SUITE FILE_PATH="coverage/ffl@Standing_check_object.rcov" NAME="Standing.check_object Coverage Results" MODIFIED="1616054893771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
+    <SUITE FILE_PATH="coverage/ffl@TeamsController_PUT__update_____1_.rcov" NAME="TeamsController PUT #update... (1) Coverage Results" MODIFIED="1615902223542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
+    <SUITE FILE_PATH="coverage/ffl@GamesController_POST__creat___.rcov" NAME="GamesController POST #creat... Coverage Results" MODIFIED="1616061016985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
     <SUITE FILE_PATH="coverage/ffl@GamesController_PUT__update_____1_.rcov" NAME="GamesController PUT #update... (1) Coverage Results" MODIFIED="1615981789398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
     <SUITE FILE_PATH="coverage/ffl@GameSessionsController_PUT____.rcov" NAME="GameSessionsController PUT ... Coverage Results" MODIFIED="1615981915892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
     <SUITE FILE_PATH="coverage/ffl@GameSessionsController_GET______1_.rcov" NAME="GameSessionsController GET ... (1) Coverage Results" MODIFIED="1615898313492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
-    <SUITE FILE_PATH="coverage/ffl@GameSessionsController_PUT______1_.rcov" NAME="GameSessionsController PUT ... (1) Coverage Results" MODIFIED="1615899088092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
-    <SUITE FILE_PATH="coverage/ffl@GamesController.rcov" NAME="GamesController Coverage Results" MODIFIED="1615982826362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
     <SUITE FILE_PATH="coverage/ffl@Game_validate_game_returns______1_.rcov" NAME="Game#validate_game returns ... (1) Coverage Results" MODIFIED="1615989453325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
-    <SUITE FILE_PATH="coverage/ffl@TeamsController_PUT__update_____2_.rcov" NAME="TeamsController PUT #update... (2) Coverage Results" MODIFIED="1615902379883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
-    <SUITE FILE_PATH="coverage/ffl@TeamsController_PUT__update.rcov" NAME="TeamsController PUT #update Coverage Results" MODIFIED="1615902412946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
     <SUITE FILE_PATH="coverage/ffl@TeamsController_PUT__update___.rcov" NAME="TeamsController PUT #update... Coverage Results" MODIFIED="1615981845329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
     <SUITE FILE_PATH="coverage/ffl@Game_validate_teams.rcov" NAME="Game#validate_teams Coverage Results" MODIFIED="1615989757255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
-    <SUITE FILE_PATH="coverage/ffl@TeamsController__1_.rcov" NAME="TeamsController (1) Coverage Results" MODIFIED="1615909293764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
     <SUITE FILE_PATH="coverage/ffl@GameSessionsController.rcov" NAME="GameSessionsController Coverage Results" MODIFIED="1615981922225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
-    <SUITE FILE_PATH="coverage/ffl@Game.rcov" NAME="Game Coverage Results" MODIFIED="1615990185231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
+    <SUITE FILE_PATH="coverage/ffl@Game.rcov" NAME="Game Coverage Results" MODIFIED="1615990927386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
     <SUITE FILE_PATH="coverage/ffl@TeamsController_DELETE__des___.rcov" NAME="TeamsController DELETE #des... Coverage Results" MODIFIED="1615902420031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
-    <SUITE FILE_PATH="coverage/ffl@GameSessionsController_POST___.rcov" NAME="GameSessionsController POST... Coverage Results" MODIFIED="1615898552004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
-    <SUITE FILE_PATH="coverage/ffl@Game_validate_game_returns____.rcov" NAME="Game#validate_game returns ... Coverage Results" MODIFIED="1615989288641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
-    <SUITE FILE_PATH="coverage/ffl@GamesController_DELETE__des_____1_.rcov" NAME="GamesController DELETE #des... (1) Coverage Results" MODIFIED="1615980575769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
-    <SUITE FILE_PATH="coverage/ffl@GameSessionsController_GET______3_.rcov" NAME="GameSessionsController GET ... (3) Coverage Results" MODIFIED="1615898435115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
     <SUITE FILE_PATH="coverage/ffl@GameSessionsController_POST_____2_.rcov" NAME="GameSessionsController POST... (2) Coverage Results" MODIFIED="1615898836765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
     <SUITE FILE_PATH="coverage/ffl@GameSessionsController_PUT______3_.rcov" NAME="GameSessionsController PUT ... (3) Coverage Results" MODIFIED="1615899320632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
+    <SUITE FILE_PATH="coverage/ffl@HomeController.rcov" NAME="HomeController Coverage Results" MODIFIED="1616073600715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ffl" />
   </component>
 </project>

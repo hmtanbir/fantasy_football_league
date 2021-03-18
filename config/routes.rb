@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  root 'home#index'
+  get 'standings', to: 'home#standings'
   resources :games
   resources :teams
   resources :game_sessions
