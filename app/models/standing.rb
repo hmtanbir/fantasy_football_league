@@ -3,5 +3,5 @@ class Standing < ApplicationRecord
   validates :team, presence: true
 
   scope :check_object, ->(team, season_id) { where(team: team, game_session_id: season_id) }
-  scope :order_desc, -> { order(win: :desc, gd: :desc) }
+  scope :order_desc, -> { order(win: :desc, draw: :desc, gd: :desc) }
 end

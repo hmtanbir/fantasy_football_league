@@ -6,7 +6,7 @@ class HomeController < ApplicationController
   end
 
   def standings
-    @query = Standing.ransack(params[:q])
+    @query = Standing.order_desc.ransack(params[:q])
     @standings = @query.result(distinct: true)
   end
 
