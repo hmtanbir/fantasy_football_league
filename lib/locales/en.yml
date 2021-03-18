@@ -31,3 +31,54 @@
 
 en:
   hello: "Hello world"
+  show: "Show"
+  edit: "Edit"
+  destroy: "Destroy"
+  actions: "Actions"
+  player:
+    title: "Players"
+    new: "Add new player"
+    name: "Name"
+    country: "Country"
+    age: "Age"
+    transfer_fees: "Transfer Fees"
+  season:
+    title: "Game Season"
+    new: "Add new season"
+    period: "Period"
+  team:
+    title: "Teams"
+    new: "Add new Team"
+    image: "Image"
+    name: "Name"
+    city: "City"
+  management:
+    title: "Managements"
+    new: "Add new Management"
+    team: "Team"
+    player: "Player"
+    season: "Season"
+  game:
+    title: "Games"
+    new: "Add new game"
+    match_number: "Match Number"
+    home_team: "Home Team"
+    away_team: "Away Team"
+    home_team_goal: "Home Team Goal"
+    away_team_goal: "Away Team Goal"
+    game_date: "Game Date"
+    game_season: "Season"
+  standing:
+    title: "Standings"
+    submit: "Look"
+    team: "Team"
+    match_played: "Match played"
+    win: "Win"
+    lose: "Lose"
+    draw: "Draw"
+    gf: "GF"
+    ga: "GA"
+    gd: "GD"
+    point: "Point"
+
+

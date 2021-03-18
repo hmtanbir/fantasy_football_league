@@ -1,20 +1,20 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Games</h1>
+<h1><%= I18n.t('game.title') %></h1>
 <br>
-<%= link_to 'New Game', new_game_path, class: 'btn btn-info' %>
+<%= link_to I18n.t('game.new'), new_game_path, class: 'btn btn-info' %>
 <br><br>
 <table id="example" class="table table-striped table-bordered dt-responsive nowrap" style="width:100%">
   <thead>
     <tr>
-      <th>Match number</th>
-      <th>Home team</th>
-      <th>Away team</th>
-      <th>Home team goal</th>
-      <th>Away team goal</th>
-      <th>Game date</th>
-      <th>Game season</th>
-      <th>Actions</th>
+      <th><%= I18n.t('game.match_number') %></th>
+      <th><%= I18n.t('game.home_team') %></th>
+      <th><%= I18n.t('game.away_team') %></th>
+      <th><%= I18n.t('game.home_team_goal') %></th>
+      <th><%= I18n.t('game.away_team_goal') %></th>
+      <th><%= I18n.t('game.game_date') %></th>
+      <th><%= I18n.t('game.game_season') %></th>
+      <th><%= I18n.t('.actions') %></th>
     </tr>
   </thead>
 
@@ -28,8 +28,8 @@
         <td><%= game.away_team_goal %></td>
         <td><%= game.game_date %></td>
         <td><%= game.game_session.try(:period) %></td>
-        <td><%= link_to 'Show', game %> |
-        <%= link_to 'Destroy', game, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to I18n.t('show'), game %> |
+        <%= link_to I18n.t('destroy'), game, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>

@@ -1,15 +1,15 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Game Sessions</h1>
+<h1><%= I18n.t('season.title') %></h1>
 <br>
-<%= link_to 'New Game Session', new_game_session_path, class: 'btn btn-info' %>
+<%= link_to I18n.t('season.new'), new_game_session_path, class: 'btn btn-info' %>
 <br><br>
 
 <table id="example" class="table table-striped table-bordered dt-responsive nowrap" style="width:100%">
   <thead>
     <tr>
-      <th>Period</th>
-      <th>Actions</th>
+      <th><%= I18n.t('season.period') %></th>
+      <th><%= I18n.t('.actions') %></th>
     </tr>
   </thead>
 
@@ -17,9 +17,9 @@
     <% @game_sessions.each do |game_session| %>
       <tr>
         <td><%= game_session.period %></td>
-        <td><%= link_to 'Show', game_session %> |
-        <%= link_to 'Edit', edit_game_session_path(game_session) %> |
-        <%= link_to 'Destroy', game_session, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to I18n.t('show'), game_session %> |
+        <%= link_to I18n.t('edit'), edit_game_session_path(game_session) %> |
+        <%= link_to I18n.t('destroy'), game_session, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>

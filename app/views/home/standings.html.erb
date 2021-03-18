@@ -1,6 +1,6 @@
 <div class="container">
   <%= search_form_for @query, url: standings_path, method: :get do |f| %>
-    <h2>Standings</h2>
+    <h2><%= I18n.t('standing.title') %></h2>
     <div class="row">
       <div class="col-sm-6">
         <%= f.select :game_session_id_eq, @seasons,
@@ -8,7 +8,7 @@
                      { class: 'select2 form-control ja-search' } %>
       </div>
       <div class="col-sm-6">
-        <%= f.submit 'Look', class: 'btn btn-primary' %>
+        <%= f.submit I18n.t('standing.submit'), class: 'btn btn-primary' %>
       </div>
     </div>
   <% end %>
@@ -25,15 +25,15 @@
       <table id="example" class="table table-striped table-bordered" style="width:100%">
         <thead>
         <tr>
-          <th>Team</th>
-          <th>Match played</th>
-          <th>Win</th>
-          <th>Lose</th>
-          <th>Draw</th>
-          <th>GF</th>
-          <th>GA</th>
-          <th>GD</th>
-          <th>Point</th>
+          <th><%= I18n.t('standing.team') %></th>
+          <th><%= I18n.t('standing.match_played') %></th>
+          <th><%= I18n.t('standing.win') %></th>
+          <th><%= I18n.t('standing.lose') %></th>
+          <th><%= I18n.t('standing.draw') %></th>
+          <th><%= I18n.t('standing.gf') %></th>
+          <th><%= I18n.t('standing.ga') %></th>
+          <th><%= I18n.t('standing.gd') %></th>
+          <th><%= I18n.t('standing.point') %></th>
         </tr>
         </thead>
 
