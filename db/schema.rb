@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_03_18_165222) do
+ActiveRecord::Schema.define(version: 2021_03_18_172150) do
 
   create_table "active_storage_attachments", force: :cascade do |t|
     t.string "name", null: false
@@ -52,6 +52,18 @@ ActiveRecord::Schema.define(version: 2021_03_18_165222) do
     t.index ["game_session_id"], name: "index_games_on_game_session_id"
     t.index ["home_team", "away_team", "game_session_id"], name: "games_unique_index", unique: true
     t.index ["match_number", "game_session_id"], name: "games_unique_match_index", unique: true
+  end
+
+  create_table "managements", force: :cascade do |t|
+    t.integer "team_id"
+    t.integer "player_id"
+    t.integer "game_session_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["game_session_id"], name: "index_managements_on_game_session_id"
+    t.index ["player_id"], name: "index_managements_on_player_id"
+    t.index ["team_id", "player_id", "game_session_id"], name: "management_unique_index", unique: true
+    t.index ["team_id"], name: "index_managements_on_team_id"
   end
 
   create_table "players", force: :cascade do |t|

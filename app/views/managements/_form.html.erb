@@ -1,0 +1,32 @@
+<%= form_with(model: management, local: true) do |form| %>
+  <% if management.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(management.errors.count, "error") %> prohibited this management from being saved:</h2>
+
+      <ul>
+      <% management.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="form-group">
+    <%= form.label :team_id %>
+    <%= form.collection_select :team_id, Team.all, :id, :name, class: 'form-control', required: true %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :player_id %>
+    <%= form.collection_select :player_id, Player.all, :id, :name, class: 'form-control', required: true %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :game_session_id %>
+    <%= form.collection_select :game_session_id, GameSession.all, :id, :period, class: 'form-control', required: true %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

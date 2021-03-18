@@ -8,6 +8,7 @@ class TeamsController < ApplicationController
 
   # GET /teams/1
   def show
+    @players = Management.where(team_id: params[:id])
   end
 
   # GET /teams/new

@@ -15,5 +15,31 @@
   <%= @team.city %>
 </p>
 
-<%= link_to 'Edit', edit_team_path(@team) %> |
-<%= link_to 'Back', teams_path %>
+<%= link_to 'Edit', edit_team_path(@team), class: 'btn btn-success' %>
+<%= link_to 'Back', teams_path, class: 'btn btn-info' %>
+
+<h1>Team Members</h1>
+
+<table id="example" class="table table-striped table-bordered dt-responsive nowrap" style="width:100%">
+  <thead>
+  <tr>
+    <th>Player Name</th>
+    <th>Player Country</th>
+    <th>Player Age</th>
+    <th>Transfer Fees</th>
+    <th>Season</th>
+  </tr>
+  </thead>
+
+  <tbody>
+  <% @players.each do |item| %>
+    <tr>
+      <td><%= item.player.try(:name) %></td>
+      <td><%= item.player.try(:country) %></td>
+      <td><%= item.player.try(:age) %></td>
+      <td><%= item.player.try(:transfer_fees) %></td>
+      <td><%= item.game_session.try(:period) %></td>
+    </tr>
+  <% end %>
+  </tbody>
+</table>

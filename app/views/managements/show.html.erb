@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Team:</strong>
+  <%= @management.team.try(:name) %>
+</p>
+
+<p>
+  <strong>Player:</strong>
+  <%= @management.player.try(:name) %>
+</p>
+
+<p>
+  <strong>Game session:</strong>
+  <%= @management.game_session.try(:period) %>
+</p>
+
+<%= link_to 'Edit', edit_management_path(@management) %> |
+<%= link_to 'Back', managements_path %>
