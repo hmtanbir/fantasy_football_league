@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Ffl</title>
+    <title>Fantasy Football league</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
@@ -20,6 +20,10 @@
   </head>
 
   <body>
+    <%= render "layouts/header" %>
+    <div class="container-ffl container">
     <%= yield %>
+    </div>
+    <%= render "layouts/footer" %>
   </body>
 </html>

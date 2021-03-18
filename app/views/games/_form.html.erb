@@ -11,42 +11,42 @@
     </div>
   <% end %>
 
-  <div class="field">
+  <div class="form-group">
     <%= form.label :match_number %>
-    <%= form.number_field :match_number %>
+    <%= form.number_field :match_number, class: 'form-control', required: true %>
   </div>
 
-  <div class="field">
+  <div class="form-group">
     <%= form.label :home_team %>
-    <%= form.collection_select :home_team, Team.all, :name, :name %>
+    <%= form.collection_select :home_team, Team.all, :name, :name, class: 'form-control', required: true %>
   </div>
 
-  <div class="field">
+  <div class="form-group">
     <%= form.label :away_team %>
-    <%= form.collection_select :away_team, Team.all, :name, :name %>
+    <%= form.collection_select :away_team, Team.all, :name, :name, class: 'form-control', required: true %>
   </div>
 
-  <div class="field">
+  <div class="form-group">
     <%= form.label :home_team_goal %>
-    <%= form.number_field :home_team_goal %>
+    <%= form.number_field :home_team_goal, class: 'form-control', required: true %>
   </div>
 
-  <div class="field">
+  <div class="form-group">
     <%= form.label :away_team_goal %>
-    <%= form.number_field :away_team_goal %>
+    <%= form.number_field :away_team_goal, class: 'form-control', required: true %>
   </div>
 
-  <div class="field">
+  <div class="form-group">
     <%= form.label :game_date %>
-    <%= form.date_select :game_date %>
+    <%= form.date_select :game_date, class: 'form-control', required: true %>
   </div>
 
-  <div class="field">
+  <div class="form-group">
     <%= form.label :game_session_id %>
-    <%= form.collection_select :game_session_id, GameSession.all, :id, :period %>
+    <%= form.collection_select :game_session_id, GameSession.all, :id, :period, class: 'form-control', required: true %>
   </div>
 
   <div class="actions">
-    <%= form.submit %>
+    <%= form.submit 'Create Game', class: 'btn btn-primary btn-block' %>
   </div>
 <% end %>

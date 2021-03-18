@@ -11,12 +11,12 @@
     </div>
   <% end %>
 
-  <div class="field">
+  <div class="form-group">
     <%= form.label :period %>
-    <%= form.text_field :period %>
+    <%= form.text_field :period, class: 'form-control', required: true %>
   </div>
 
   <div class="actions">
-    <%= form.submit %>
+    <%= form.submit 'Add Season', class: 'btn btn-primary btn-block' %>
   </div>
 <% end %>
