@@ -1,24 +1,24 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Fanatasy Football Leauge
 
-Things you may want to cover:
+This project is powered by Ruby on rails.
 
-* Ruby version
+Ruby: 2.7.2
+Rails version: 5.2.4
 
-* System dependencies
+# Installation Process
 
-* Configuration
+Move in local repository : $ cd fantasy_football_league
 
-* Database creation
+Install bundler : $ gem install bundler
 
-* Database initialization
+Install college : $ bundle install
 
-* How to run the test suite
+Database creation : $ rails db:create
 
-* Services (job queues, cache servers, search engines, etc.)
+Database migrate : $ rails db:migrate
 
-* Deployment instructions
+Database seed : $ rails db:seed
 
-* ...
+Run server : $ rails server or $ rails s

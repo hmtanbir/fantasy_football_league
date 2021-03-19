@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="080308c8-3086-4f27-b46c-9cbabb552e09" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/game_sessions/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/game_sessions/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/games/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/games/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/home/standings.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/home/standings.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/managements/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/managements/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/players/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/players/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/teams/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/teams/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/locales/en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lib/locales/en.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/locales/jp.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lib/locales/jp.yml" afterDir="false" />
-    </list>
+    <list default="true" id="080308c8-3086-4f27-b46c-9cbabb552e09" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
